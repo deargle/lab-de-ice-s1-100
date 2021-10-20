@@ -6,18 +6,24 @@ on 192.168.1.100/24.
 
 ## Using it
 
-Download the "De-ICE_S1.100.iso" file into this directory, leaving it named
-exactly that.  When I last tried, it wasn't working to download it from the url
-linked from [vulnhub](https://www.vulnhub.com/entry/de-ice-s1100,8/), so I got a
-copy from Internet Archive's Wayback Machine and uploaded it to my dropbox
-account.
+* Download the "De-ICE_S1.100.iso" file into this directory, leaving it named
+  exactly that. 
 
-* Wayback Archives link:
-  <https://web.archive.org/web/20190831103512/https://hackingdojo.com/downloads/iso/De-ICE_S1.100.iso>
-* My dropbox share:
-  <https://www.dropbox.com/s/v6vuy9b86nqr881/De-ICE_S1.100.iso?dl=1>
+  When I last tried, it wasn't working to download it from the url
+  linked from [vulnhub](https://www.vulnhub.com/entry/de-ice-s1100,8/), so I got a
+  copy from Internet Archive's Wayback Machine and uploaded it to my dropbox
+  account.
 
-Then, run `vagrant up`.
+  * Wayback Archives link:
+    <https://web.archive.org/web/20190831103512/https://hackingdojo.com/downloads/iso/De-ICE_S1.100.iso>
+  * My dropbox share:
+    <https://www.dropbox.com/s/v6vuy9b86nqr881/De-ICE_S1.100.iso?dl=1>
+
+* Grant global execute privileges to the iso so that user `qemu` can find the iso:
+    
+      sudo chmod a+x De-ICE_S1.100.iso
+
+* Then, run `vagrant up`.
 
 
 ## Enabling legacy ssh KEX
