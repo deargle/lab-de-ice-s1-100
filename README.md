@@ -25,6 +25,14 @@ on 192.168.1.100/24.
 
 * Then, run `vagrant up`.
 
+All together:
+
+```bash
+$ wget https://www.dropbox.com/s/v6vuy9b86nqr881/De-ICE_S1.100.iso?dl=1 -O De-ICE_S1.100.iso
+$ chmod a+x De-ICE_S1.100.iso
+$ sudo vagrant up
+```
+
 
 ## Enabling legacy ssh KEX
 
