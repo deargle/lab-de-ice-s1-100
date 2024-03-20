@@ -28,6 +28,7 @@ on 192.168.1.100/24.
 All together:
 
 ```bash
+$ git clone https://github.com/deargle/lab-de-ice-s1-100 && cd lab-de-ice-s1-100
 $ wget https://www.dropbox.com/s/v6vuy9b86nqr881/De-ICE_S1.100.iso?dl=1 -O De-ICE_S1.100.iso
 $ chmod a+x De-ICE_S1.100.iso
 $ sudo vagrant up
